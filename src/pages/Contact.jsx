@@ -33,10 +33,10 @@ const Contact = () => {
               <div className="w-full h-[100%] origin-center -rotate-3 rounded-3xl bg-white flex">
                 <img
                   src={mesageSvg}
-                  className="w-[45%] h-[100%]  bg-white rounded-es-3xl rounded-s-3xl  shadow-xl lg:h-80"
+                  className="w-[45%] h-auto  bg-white rounded-es-3xl rounded-s-3xl  shadow-xl "
                 />
-                <div className="p-3 flex flex-col justify-center items-center">
-                  <p className="text-sm mb-4">
+                <div className="p-3 flex flex-col justify-center items-center rotate-3">
+                  <p className="text-sm mb-4 ">
                     Dziękuje za Twoją wiadomość! Odpowiem tak szybko, jak to
                     możliwe. Miłego dnia
                   </p>
