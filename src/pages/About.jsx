@@ -1,7 +1,7 @@
 import aboutSvg from "../assets/about.svg";
 import SectionTitle from "./componets/SectionTitle";
 import { FcSearch } from "react-icons/fc";
-import ModalAbout from "./componets/modalAbout";
+import ModalAbout from "./componets/ModalAbout";
 import { useState } from "react";
 
 const About = () => {
