@@ -1,8 +1,8 @@
 import aboutSvg from "../assets/about.svg";
 import SectionTitle from "./componets/SectionTitle";
 import { FcSearch } from "react-icons/fc";
-import ModalAbout from "./componets/ModalAbout";
 import { useState } from "react";
+import Cv from "./Cv";
 
 const About = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -12,7 +12,7 @@ const About = () => {
         <img src={aboutSvg} className="w-full h-64" />
         <article>
           <SectionTitle text="O mnie" />
-          <p className="text-slate-600 mt-8 leading-loose text-lg md:text-xl">
+          <p className="text-slate-600 mt-8 leading-loose  md:text-xl">
             Jestem frontend developerem z pasją do projektowania nowoczesnych,
             responsywnych stron i aplikacji. Dzięki połączeniu estetyki z
             funkcjonalnością pomagam firmom budować silną obecność online.
@@ -33,14 +33,14 @@ const About = () => {
         </article>
       </div>
       {openModal && (
-        <div className="absolute top-0 left-0 min-h-full  bg-black/85 p-4 flex flex-col ">
+        <div className="absolute top-0 left-0 w-full min-h-full flex flex-col   bg-black/85 ">
           <button
-            className="bg-black text-white text-sm p-2 border border-white mr-2 mb-2  rounded-md self-end hover:bg-white hover:text-black duration-300"
+            className="bg-black text-white  text-sm p-2 m-3 border border-white  rounded-md self-end hover:bg-white hover:text-black duration-300"
             onClick={() => setOpenModal(!openModal)}
           >
             Zamknij
           </button>
-          <ModalAbout />
+          <Cv />
         </div>
       )}
     </section>

@@ -60,39 +60,89 @@ export const projects = [
   },
 ];
 
-export const contact = [
-  {
-    id: nanoid(),
-    icon: <FaPhone size={25} />,
-    text: "693-529-383",
+export const cvContent = {
+  name: "Michał Syc",
+  job: "Technik Informatyk",
+  text: "Jestem zdeterminowanym samoukiem, który z pasją rozwija swoje umiejętności programistyczne, wierząc, że nauka to proces ciągły i niekończący się. Moim celem jest rozpoczęcie kariery jako programista front-end, gdzie będę mógł łączyć kreatywność z umiejętnością rozwiązywania problemów technicznych. W swojej dotychczasowej pracy zdobyłem cenne doświadczenie w pracy zespołowej, efektywnej organizacji zadań i dbałości o szczegóły, które pragnę przenieść na nowe wyzwania w branży IT. Jestem zmotywowany, by stale podnosić swoje kompetencje i z entuzjazmem podchodzę do każdego projektu, widząc w nim szansę na rozwój zawodowy i osobisty.",
+  contact: [
+    {
+      id: nanoid(),
+      icon: <FaPhone size={25} />,
+      text: "693-529-383",
+    },
+    {
+      id: nanoid(),
+      icon: <MdOutlineAlternateEmail size={25} />,
+      text: "michal.syc1990@gmail.com",
+    },
+    {
+      id: nanoid(),
+      icon: <FiMapPin size={25} />,
+      text: "ul.Królowej Jadwigi 1/1 67-400 Wschowa",
+    },
+  ],
+  professionalExperience: {
+    title: "Shock Bath - Lakiernik form, pracownik produkcji",
+    date: "Czerwiec 2014 - Obecnie",
+    experience: [
+      {
+        id: nanoid(),
+        text: "10 lat doświadczenia w precyzyjnej produkcji form i wykończeniu produktów.",
+      },
+      {
+        id: nanoid(),
+        text: "Współpraca w zespołach produkcyjnych, realizacja projektów zgodnie z harmonogramem.",
+      },
+      {
+        id: nanoid(),
+        text: "Odpowiedzialność za jakość wykończenia i zgodność z wymaganiami technicznymi.",
+      },
+    ],
   },
-  {
-    id: nanoid(),
-    icon: <MdOutlineAlternateEmail size={25} />,
-    text: "michal.syc1990@gmail.com",
+  education: {
+    date: "09.2006 - 05.210",
+    title: "Technikum Informatyczne w I ZSZ im. S.Staszica",
+    specialization: "Zarządzanie sieciami",
+    level: "Zawodowe",
   },
-  {
-    id: nanoid(),
-    icon: <FiMapPin size={25} />,
-    text: "ul.Królowej Jadwigi 1/1 67-400 Wschowa",
+  personSkills: [
+    {
+      id: nanoid(),
+      text: "Tworzenie prostych aplikacji front-endowych, eksperymentowanie z komponentami React i stylami CSS.",
+    },
+    {
+      id: nanoid(),
+      text: "Determinacja w realizacji celów.",
+    },
+    {
+      id: nanoid(),
+      text: "Umiejętność pracy zespołowej i komunikacji.",
+    },
+    {
+      id: nanoid(),
+      text: "Ciągła chęć nauki i doskonalenia się.",
+    },
+  ],
+  programmingSkills: [
+    {
+      id: nanoid(),
+      title: "HTML&CSS",
+      text: "Znam HTML/CSS na poziomie, który pozwala mi tworzyć struktury stron internetowych oraz tworzyć responsywne układy, zarządzać kolorami, typografią i rozmieszczeniem elementów, aby poprawić wrażenia użytkownika.",
+    },
+    {
+      id: nanoid(),
+      title: "Javascript",
+      text: "Mam podstawową wiedzę z JavaScript, co umożliwia mi pisanie skryptów do obsługi interakcji użytkownika oraz manipulacji elementami na stronie. Rozumiem zasady działania zmiennych, pętli oraz funkcji.",
+    },
+    {
+      id: nanoid(),
+      title: "React",
+      text: "Podstawy Reacta pozwalają mi na tworzenie dynamicznych interfejsów użytkownika. Korzystam z komponentów, aby budować przejrzyste i łatwe w utrzymaniu aplikacje, a także efektywnie zarządzać stanem danych.",
+    },
+  ],
+  language: {
+    name: "Angielski",
+    level: "Podstawowy",
   },
-];
-
-export const cvSkilss = [
-  {
-    id: nanoid(),
-    text: "Tworzenie prostych aplikacji front-endowych, eksperymentowanie z komponentami React i stylami CSS.",
-  },
-  {
-    id: nanoid(),
-    text: "Determinacja w realizacji celów.",
-  },
-  {
-    id: nanoid(),
-    text: "Umiejętność pracy zespołowej i komunikacji.",
-  },
-  {
-    id: nanoid(),
-    text: "Ciągła chęć nauki i doskonalenia się.",
-  },
-];
+  hoby: "Wolny czas poświęcam na rozwijanie i zdobywanie nowych umiejętności z dziedziny IT. Również oddaje się wszelkim sportom. Osobiście trenuje KickBoxing i uwielbiam jazdę na nartach.",
+};

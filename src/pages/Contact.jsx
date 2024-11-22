@@ -29,20 +29,20 @@ const Contact = () => {
             dyspozycji!
           </p>
           {mesage ? (
-            <div className="w-full h-56 bg-sky-200 rounded-3xl p-1 mt-4">
-              <div className="w-full h-[100%] origin-center -rotate-3 rounded-3xl bg-white flex">
+            <div className="w-full   bg-sky-200 rounded-3xl p-1 mt-4">
+              <div className=" flex flex-col origin-center -rotate-3 rounded-3xl bg-white">
                 <img
                   src={mesageSvg}
-                  className="w-[45%] h-auto  bg-white rounded-es-3xl rounded-s-3xl  shadow-xl "
+                  className="w-full h-48  bg-white rounded-3xl md:rounded-es-3xl md:rounded-s-3xl  shadow-xl "
                 />
                 <div className="p-3 flex flex-col justify-center items-center rotate-3">
-                  <p className="text-sm mb-4 ">
+                  <p className="text-lg my-4 text-center">
                     Dziękuje za Twoją wiadomość! Odpowiem tak szybko, jak to
                     możliwe. Miłego dnia
                   </p>
                   <button
                     onClick={() => setMesage(false)}
-                    className="w-max bg-white text-gray-800 font-bold rounded border-b-2 border-sky-200 hover:border-sky-300 hover:bg-sky-300 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
+                    className="w-max bg-white text-gray-800 font-bold rounded border-b-2 border-sky-200 hover:border-sky-300 hover:bg-sky-300 hover:text-white shadow-md py-2 px-6 inline-flex items-center duration-300"
                   >
                     Zamknij
                   </button>

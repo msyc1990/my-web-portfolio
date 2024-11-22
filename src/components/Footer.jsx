@@ -14,11 +14,11 @@ const Footer = () => {
               Kontakt
             </h2>
             <div className="flex gap-x-4 flex-col">
-              <p className="flex items-center gap-x-2 text-md">
+              <p className="flex items-center gap-x-2 text-slate-400">
                 <MdEmail color="#38bdf8" />
                 michal.syc1990@gmail.com
               </p>
-              <p className="flex items-center gap-x-2 text-md">
+              <p className="flex items-center gap-x-2 text-slate-400">
                 <FaPhoneSquareAlt color="#38bdf8" />
                 693-529-383
               </p>
@@ -31,14 +31,14 @@ const Footer = () => {
             <div className="flex gap-x-4 flex-col">
               <a
                 href="https://www.smashingmagazine.com/"
-                className="flex items-center gap-x-2 text-md hover:text-sky-300"
+                className="flex items-center gap-x-2 text-slate-400 hover:text-sky-300"
                 target="_blank"
               >
                 Smash Magazine
               </a>
               <a
                 href="https://www.w3schools.com/"
-                className="flex items-center gap-x-2 text-md hover:text-sky-300"
+                className="flex items-center gap-x-2 text-slate-400 hover:text-sky-300"
                 target="_blank"
               >
                 W3Schools

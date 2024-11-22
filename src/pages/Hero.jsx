@@ -7,11 +7,13 @@ const Hero = () => {
     <div className="bg-sky-50/15 py-24">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
-          <h1 className="text-5xl font-bold tracking-wider">Michał Syc</h1>
-          <p className="mt-4 text-3xl text-slate-800 capitalize tracking-wide">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-wider">
+            Michał Syc
+          </h1>
+          <p className="mt-4 text-xl md:text-2xl text-slate-800 font-semibold capitalize tracking-wide">
             Front-End Developer
           </p>
-          <p className="mt-2 text-lg text-slate-500  tracking-wide font-medium md:text-xl">
+          <p className="mt-2  text-slate-500  tracking-wide  md:text-xl">
             <span className="underline decoration-sky-500 decoration-4">
               Front-end
             </span>
