@@ -83,7 +83,7 @@ const Contact = () => {
               </form>
               <button
                 onClick={() => setMesage(true)}
-                className="bg-sky-400 shadow-lg rounded-md text-black text-xl text-center px-4 my-3 font-semibold uppercase  hover:bg-sky-200 hover:shadow-lg border border-sky-400 duration-300"
+                className="bg-sky-400 shadow-lg rounded-md text-gray-50 text-xl text-center py-1 px-4 my-3 font-semibold uppercase  hover:bg-sky-200 hover:text-slate-900 hover:shadow-lg border border-sky-400 duration-300"
               >
                 Wyślij
               </button>

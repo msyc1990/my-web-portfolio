@@ -1,9 +1,10 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { HomeLayout, IndexPages } from "./pages";
+import { Error, HomeLayout, IndexPages } from "./pages";
 
 const router = createBrowserRouter([
   {
     element: <HomeLayout />,
+    errorElement: <Error />,
     children: [{ path: "/", element: <IndexPages /> }],
   },
 ]);

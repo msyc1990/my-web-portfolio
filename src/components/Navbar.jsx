@@ -26,7 +26,7 @@ const Navbar = () => {
           })}
           <a
             href="#contact"
-            className="bg-sky-500  rounded-lg text-black text-xl text-center px-3 mx-3 font-bold uppercase  hover:bg-sky-50   duration-300"
+            className="bg-sky-500  rounded-lg text-gray-50 text-xl text-center py-1 px-3 mx-3 font-bold uppercase  hover:bg-sky-50 hover:text-slate-900  duration-300"
           >
             Kontakt
           </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
           })}
           <a
             href="#contact"
-            className="bg-sky-500   rounded-lg text-black text-xl text-center px-3 my-3 font-bold uppercase  hover:bg-sky-50  duration-300"
+            className="bg-sky-500   rounded-lg text-gray-50 text-xl text-center px-3 my-3 font-bold uppercase  hover:bg-sky-50 hover:text-slate-900  duration-300"
           >
             Kontakt
           </a>
