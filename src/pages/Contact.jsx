@@ -76,6 +76,7 @@ const Contact = () => {
                 Zostaw wiadomość
               </h1>
               <form
+                method="POST"
                 onSubmit={handleSubmit}
                 className="p-2 flex flex-col gap-y-2 bg-white"
               >
