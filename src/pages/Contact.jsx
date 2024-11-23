@@ -5,9 +5,30 @@ import { useState } from "react";
 const Contact = () => {
   const [mesage, setMesage] = useState(false);
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [text, setText] = useState("");
+  const [status, setStatus] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    try {
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, text }),
+      });
+
+      if (response.ok) {
+        setStatus("Wiadomość wysłana pomyślnie!");
+        setEmail("");
+        setText("");
+      } else {
+        setStatus("Wystąpił błąd podczas wysyłania wiadomości.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setStatus("Nie udało się wysłać wiadomości.");
+    }
   };
   return (
     <section className="bg-sky-50/15 py-20" id="contact">
@@ -71,13 +92,17 @@ const Contact = () => {
                   autoComplete="on"
                   name="email"
                   type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   placeholder="email"
                   required
                   className=" py-2 px-2 w-full text-sm rounded-sm text-gray-900 bg-gray-50 border-0 border-b-2 focus:outline-none focus:bg-inherit"
                 />
                 <textarea
                   autoComplete="off"
-                  name="mesage"
+                  name="text"
+                  value={text}
+                  onChange={(e) => setText(e.target.value)}
                   className="block mt-2 p-2.5 w-full h-56 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:outline-none"
                 ></textarea>
               </form>
@@ -87,6 +112,7 @@ const Contact = () => {
               >
                 Wyślij
               </button>
+              {status && <p>{status}</p>}
             </div>
           )}
         </article>
