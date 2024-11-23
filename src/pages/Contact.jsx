@@ -59,6 +59,7 @@ const Contact = () => {
                 className="p-2 flex flex-col gap-y-2 bg-white"
               >
                 <input
+                  autoComplete="on"
                   name="name"
                   type="text"
                   placeholder="name"
@@ -67,6 +68,7 @@ const Contact = () => {
                   className="block py-2 px-2 w-full text-sm rounded-sm text-gray-900 bg-gray-50 border-0 border-b-2 focus:outline-none focus:bg-inherit"
                 />
                 <input
+                  autoComplete="on"
                   name="email"
                   type="email"
                   placeholder="email"
@@ -74,13 +76,14 @@ const Contact = () => {
                   className=" py-2 px-2 w-full text-sm rounded-sm text-gray-900 bg-gray-50 border-0 border-b-2 focus:outline-none focus:bg-inherit"
                 />
                 <textarea
+                  autoComplete="off"
                   name="mesage"
                   className="block mt-2 p-2.5 w-full h-56 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:outline-none"
                 ></textarea>
               </form>
               <button
                 onClick={() => setMesage(true)}
-                className="bg-sky-400 shadow-lg rounded-md text-gray-800 text-xl text-center px-4 my-3 font-semibold uppercase  hover:bg-sky-200 hover:shadow-lg border border-sky-400 duration-300"
+                className="bg-sky-400 shadow-lg rounded-md text-black text-xl text-center px-4 my-3 font-semibold uppercase  hover:bg-sky-200 hover:shadow-lg border border-sky-400 duration-300"
               >
                 Wyślij
               </button>

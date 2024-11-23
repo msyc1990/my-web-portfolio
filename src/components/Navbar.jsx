@@ -18,7 +18,7 @@ const Navbar = () => {
               <a
                 key={id}
                 href={href}
-                className="capitalize text-lg tracking-wider font-medium hover:text-sky-300  duration-300"
+                className="capitalize text-lg tracking-wider font-medium hover:text-sky-400  duration-300"
               >
                 {text}
               </a>

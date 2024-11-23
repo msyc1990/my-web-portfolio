@@ -26,7 +26,7 @@ const About = () => {
               size={35}
               className="cursor-pointer hover:shadow-md rounded-md"
             />
-            <button className="bg-sky-300 p-1 rounded-lgbg-sky-300 shadow-sm shadow-sky-300 rounded-lg text-black text-sm text-center px-3 mx-3  capitalize underline  hover:bg-sky-50   duration-300">
+            <button className="bg-sky-400 p-1 rounded-lgbg-sky-300 shadow-sm rounded-lg text-black text-sm text-center px-3 mx-3  capitalize underline  hover:bg-sky-200 border border-sky-400  duration-300">
               Pobierz CV
             </button>
           </div>
