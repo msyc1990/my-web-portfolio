@@ -9,8 +9,8 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
       <img src={img} alt={title} className="w-full  rounded-t-lg h-64 " />
       <div className="p-8 mb-8">
         <h2 className="uppercase text-xl tracking-wide font-medium">{title}</h2>
-        <p className="mt-4 text-slate-700 leading-tight text-md">
-          {readMore ? text : `${text.substring(0, 100)}...`}
+        <p className="mt-4 text-slate-700 leading-loose text-md">
+          {readMore ? text : `${text.substring(0, 100)} ...`}
           <button
             className="font-bold underline decoration-2"
             onClick={() => setReadMore(!readMore)}
