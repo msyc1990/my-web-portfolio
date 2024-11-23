@@ -40,7 +40,7 @@ export const projects = [
     url: "https://backroads-app-orpin.vercel.app/",
     github: "https://github.com/msyc1990/backroads-app",
     title: "backroads-app",
-    text: "Discover scenic routes and hidden gems with Backroads App. Plan your next adventure, explore curated trails, and uncover unique destinations. Perfect for travelers seeking off-the-beaten-path experiences.",
+    text: "Odkryj malownicze trasy i ukryte perełki z aplikacją Backroads. Zaplanuj kolejną przygodę, odkryj starannie wybrane szlaki i odkryj wyjątkowe miejsca.",
   },
   {
     id: nanoid(),
@@ -48,7 +48,7 @@ export const projects = [
     url: "https://project-react-restaurant.vercel.app/",
     github: "https://github.com/msyc1990/project-react-restaurant",
     title: "restaurant-app",
-    text: "A modern and user-friendly platform designed to streamline the dining experience. Browse menus, make reservations, order online, and explore top-rated dishes—all in one place. Perfect for food lovers and restaurants looking to connect effortlessly.",
+    text: "Nowoczesna i przyjazna dla użytkownika platforma zaprojektowana w celu usprawnienia doświadczenia kulinarnego. Przeglądaj menu, dokonuj rezerwacji, zamawiaj online i odkrywaj najwyżej oceniane dania — wszystko w jednym miejscu.",
   },
   {
     id: nanoid(),
@@ -56,14 +56,14 @@ export const projects = [
     url: "https://bank-react-app-ld5z.vercel.app/",
     github: "https://github.com/msyc1990/bank-react-app",
     title: "bank-app",
-    text: "A secure and intuitive platform for managing your finances. Check balances, transfer funds, pay bills, and monitor transactions—all from one convenient app. Simplify banking and stay in control of your money anytime, anywhere.",
+    text: "Bezpieczna i intuicyjna platforma do zarządzania finansami. Sprawdzaj salda, przelewaj środki, płać rachunki i monitoruj transakcje — wszystko z jednej wygodnej aplikacji. Uprość bankowość i kontroluj swoje pieniądze w dowolnym czasie i miejscu.",
   },
 ];
 
 export const cvContent = {
   name: "Michał Syc",
   job: "Technik Informatyk",
-  text: "Jestem zdeterminowanym samoukiem, który z pasją rozwija swoje umiejętności programistyczne, wierząc, że nauka to proces ciągły i niekończący się. Moim celem jest rozpoczęcie kariery jako programista front-end, gdzie będę mógł łączyć kreatywność z umiejętnością rozwiązywania problemów technicznych. W swojej dotychczasowej pracy zdobyłem cenne doświadczenie w pracy zespołowej, efektywnej organizacji zadań i dbałości o szczegóły, które pragnę przenieść na nowe wyzwania w branży IT. Jestem zmotywowany, by stale podnosić swoje kompetencje i z entuzjazmem podchodzę do każdego projektu, widząc w nim szansę na rozwój zawodowy i osobisty.",
+  text: "Jestem programistą hobbystą, który z pasją rozwija swoje umiejętności programistyczne, wierząc, że nauka to proces ciągły i niekończący się. Moim celem jest rozpoczęcie kariery jako programista front-end, gdzie będę mógł łączyć kreatywność z umiejętnością rozwiązywania problemów technicznych. W swojej dotychczasowej pracy zdobyłem cenne doświadczenie w pracy zespołowej, efektywnej organizacji zadań i dbałości o szczegóły, które pragnę przenieść na nowe wyzwania w branży IT. Jestem zmotywowany, by stale podnosić swoje kompetencje i z entuzjazmem podchodzę do każdego projektu, widząc w nim szansę na rozwój zawodowy i osobisty.",
   contact: [
     {
       id: nanoid(),

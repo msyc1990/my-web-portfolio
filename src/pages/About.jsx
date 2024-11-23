@@ -24,7 +24,7 @@ const About = () => {
             <FcSearch
               onClick={() => setOpenModal(true)}
               size={35}
-              className="cursor-pointer hover:shadow-md hover:shadow-sky-300 rounded-md"
+              className="cursor-pointer hover:shadow-md rounded-md"
             />
             <button className="bg-sky-300 p-1 rounded-lgbg-sky-300 shadow-sm shadow-sky-300 rounded-lg text-black text-sm text-center px-3 mx-3  capitalize underline  hover:bg-sky-50   duration-300">
               Pobierz CV

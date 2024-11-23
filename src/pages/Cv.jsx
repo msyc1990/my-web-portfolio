@@ -24,7 +24,7 @@ const Cv = () => {
     <section className=" w-full flex flex-col p-2 text-white md:flex-row mx-auto lg:w-3/4">
       {/* left side */}
       <div className=" bg-gray-950 rounded-md p-4">
-        <div className="w-2/3  mx-auto p-6">
+        <div className="w-40 h-56  mx-auto p-6">
           <img src={imgCv} className="rounded-3xl" />
         </div>
         <div>
@@ -61,14 +61,14 @@ const Cv = () => {
       {/* right-side */}
       <div className=" bg-slate-200 flex flex-col p-2">
         <header className=" md:flex md:justify-between md:flex-row-reverse">
-          <div className="p-2 text-center my-2">
+          <div className="  my-4">
             <span className="text-gray-800 text-4xl capitalize font-sans font-thin ">
               curriculum vitae
             </span>
           </div>
           <div className="w-max border-b-2 border-black/55 pr-8">
-            <h1 className="text-black text-5xl font-bold">{name}</h1>
-            <h2 className="text-gray-700 text-2xl py-2">{job}</h2>
+            <h1 className="text-black text-4xl font-bold">{name}</h1>
+            <h2 className="text-gray-700 text-xl py-2">{job}</h2>
           </div>
         </header>
         <article className="my-2 bg-gray-500/10 rounded-md">
@@ -114,14 +114,15 @@ const Cv = () => {
         </article>
         <article className="my-2">
           <TitleCv title="Umiejętności programistyczne" color="text-gray-900" />
-          <div>
-            {programmingSkills.map((skill) => (
-              <>
+
+          {programmingSkills.map((skill) => (
+            <>
+              <div>
                 <h2 className="text-gray-900 font-semibold">{skill.title}</h2>
                 <p className="text-gray-700 p-1">{skill.text}</p>
-              </>
-            ))}
-          </div>
+              </div>
+            </>
+          ))}
         </article>
 
         <article className="my-2">

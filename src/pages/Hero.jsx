@@ -4,10 +4,10 @@ import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="bg-sky-50/15 py-24">
-      <div className="align-element grid md:grid-cols-2 items-center gap-8">
-        <article>
-          <h1 className="text-4xl md:text-6xl font-bold tracking-wider">
+    <section className="bg-sky-50/15 py-24">
+      <header className="align-element grid md:grid-cols-2 items-center gap-8">
+        <div>
+          <h1 className="text-4xl md:text-5xl font-bold tracking-wider">
             Michał Syc
           </h1>
           <p className="mt-4 text-xl md:text-2xl text-slate-800 font-semibold capitalize tracking-wide">
@@ -31,12 +31,12 @@ const Hero = () => {
               <FaFacebookSquare className="h-8 w-8 text-slate-600 hover:text-black duration-300 " />
             </a>
           </div>
-        </article>
-        <article className="hidden md:block">
+        </div>
+        <div className="hidden md:block">
           <img src={heroImg} className="h-80 lg:h-96" />
-        </article>
-      </div>
-    </div>
+        </div>
+      </header>
+    </section>
   );
 };
 export default Hero;

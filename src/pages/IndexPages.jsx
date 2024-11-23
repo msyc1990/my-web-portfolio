@@ -3,18 +3,16 @@ import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import Cv from "./Cv";
 
 const IndexPages = () => {
   return (
-    <div className="overflow-x-hidden  min-h-full">
-      {/* <Cv /> */}
+    <main className="overflow-x-hidden  min-h-full">
       <Hero />
       <About />
       <Skills />
       <Projects />
       <Contact />
-    </div>
+    </main>
   );
 };
 export default IndexPages;
